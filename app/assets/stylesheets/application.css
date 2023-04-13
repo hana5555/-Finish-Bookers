@@ -13,3 +13,70 @@
  *= require_tree .
  *= require_self
  */
+ *{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+h1{
+  margin:30px;
+  font-family:verdana, arial, helvetica, sans-serif;
+}
+
+body{
+  font-family:verdana, arial, helvetica, sans-serif;
+  font-size:13px;
+  line-height:18px;
+  margin:33px;
+  display:block;
+}
+
+div{
+  display:block;
+}
+
+.notice{
+  color:green;
+}
+
+table{
+  display:table;
+  box-sizing:border-box;
+  border-collapse:separate;
+  text-indent:initial;
+  border-spacing:2px;
+  width:100%;
+}
+
+thead{
+  display:table-header-group;
+  vertical-align:middle;
+}
+
+.colspan1{
+  width:30%;
+}
+
+.colspan2{
+  width:40%;
+}
+
+.colspan{
+  width:30%;
+}
+
+tr{
+  display:table-row;
+  vertical-align:inherit;
+  width:50px;
+}
+
+tbody{
+  display:table-row-group;
+  vertical-align:middle;
+}
+
+.new_book{
+  margin-top:30px;
+}

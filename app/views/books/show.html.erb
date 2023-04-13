@@ -1,9 +1,29 @@
-<h2>Title:</h2>
-<p><%= @book.title %></p>
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8"/>
+    <link rel="stylesheet" href="books.scss"/>
+    <title>show</title>
+  </head>
+  
+  <body>
+    
+    <div class="notice">
+        <%= flash[:notice] %>
+    </div>
 
-<h2>Body:</h2>
-<p><%= @book.body %></p>
+    <p>
+      <strong>Title:</strong>
+      <%= @book.title %>
+    </p>
 
-<%= link_to "Edit", edit_book_path %>
-<%= link_to "Back", books_path %>
+    <p>
+      <strong>Body:</strong>
+      <%= @book.body %>
+    </p>
 
+    <%= link_to "Edit", edit_book_path %>
+     | 
+    <%= link_to "Back", books_path %>
+  </body>
+ </html>
